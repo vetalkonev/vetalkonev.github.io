@@ -1,0 +1,115 @@
+#load-more {
+    margin: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ---- button ---- */
+
+.button-group__button {
+    display: inline-block;
+    padding: 20px 30px;
+    background: #EEE;
+    border: none;
+
+    color: rgba(113, 113, 113, 255);
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button-group {
+    margin-bottom: 50px;
+}
+
+.button-group__button.is-checked {
+    color: white;
+
+}
+
+.button-group__button:active {
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.button-group .button-group__button {
+    float: left;
+    border-top: 1px solid #777777;
+    border-bottom: 1px solid #777777;
+    border-left: 1px solid #777777;
+}
+
+.button-group .button-group__button:last-child {
+    border-right: 1px solid #777777;
+}
+
+.button-group__button.is-checked {
+    position: relative;
+    color: #18cfab;
+    /*border-top: 3px solid #18cfab;*/
+}
+
+.button-group__button.is-checked::before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #18cfab;
+    top: -2px;
+    left: 0;
+}
+
+.button-group__button:hover {
+    color: white;
+    background-color: #18cfab;
+}
+
+/* ---- isotope ---- */
+
+.isotope {
+    border: 1px solid #333;
+}
+
+/* clear fix */
+.isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    width: 284px;
+    height: 206px;
+
+    background: #888;
+    color: rgba(113, 113, 113, 255);
+}
+
+/*.element-item > * {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+.element-item__image {
+
+}
+
