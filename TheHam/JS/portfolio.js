@@ -85,7 +85,7 @@ $(document).ready(function() {
     }
 
     //append load more button
-    $container.after('<button id="load-more"> Load More</button>');
+    $container.after('<button id="load-more"><i class="fas fa-plus"></i><p> Load More</p></button>');
 
     //when load more button clicked
     $("#load-more").click(function() {
