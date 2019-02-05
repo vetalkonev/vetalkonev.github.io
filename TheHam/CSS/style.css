@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800');*/
 
 * {
     margin: 0 auto;
@@ -6,7 +6,6 @@
 
 body {
     display: flex;
-
     font-family: Montserrat, sans-serif;
 }
 
@@ -63,13 +62,11 @@ body {
 }
 
 .header-logo__name-span {
-
     font-size: 32px;
     font-weight: 700;
     line-height: 31px;
     text-align: left;
     transform: scaleY(1.0015);
-
 }
 
 .header-menu {
@@ -109,7 +106,6 @@ body {
     display: inline-block;
     position: relative;
     text-decoration: none;
-
 }
 
 .header-menu__item a:before {
@@ -136,7 +132,6 @@ body {
     top: 71px;
     transition: width 0.3s ease-in-out;
     width: 0;
-
 }
 
 .header-menu__item a:hover:before {
@@ -204,7 +199,6 @@ body {
     padding-top: 100px;
     text-transform: uppercase;
     width: 25%;
-
 }
 
 .container-wide__square_black {
@@ -244,7 +238,6 @@ body {
     justify-content: center;
     padding: 5px 5px;
     width: 20%;
-
 }
 
 .tabs__item:last-child {
@@ -320,14 +313,12 @@ body {
 }
 
 .green-line:before {
-    /*left: -10px;*/
     left: 10px;
     top: 77px;
 }
 
 .green-line:after {
     right: 10px;
-
     top: 35px;
 }
 
@@ -479,7 +470,7 @@ body {
 }
 
 .portfolio-info-icons {
-    display: flex;;
+    display: flex;
     justify-content: center;
     padding-bottom: 35px;
     padding-top: 40px;
@@ -497,7 +488,6 @@ body {
 }
 
 .fa-search {
-
     background-color: #18cfab;
     border-radius: 50%;
     color: white;;
@@ -530,11 +520,8 @@ body {
 }
 
 .card {
-
     background-color: #f8fcfe;
-
     box-sizing: border-box;
-
     display: block;
     float: left;
     height: 270px;
@@ -673,7 +660,7 @@ body {
 #indicators li img {
     border: 2px solid #18cfab;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 5px rgba(24, 207, 171, 0.3);
+    box-shadow: 0 0 0 5px rgba(24, 207, 171, 0.3);
     height: 69px;
     width: 69px;
 }
